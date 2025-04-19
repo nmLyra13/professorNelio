@@ -1,0 +1,22 @@
+# Arquivos de compilação Java
+*.class
+bin/
+out/
+build/
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Arquivos de pacotes
+*.jar
+*.war
+*.zip
+
+# Backups
+*~
