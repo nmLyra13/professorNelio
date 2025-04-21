@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 import secao16.model.entities.CarRental;
 import secao16.model.entities.Vehicle;
+import secao16.model.services.BrazilTaxService;
 
 public class Program {
 
@@ -14,7 +15,7 @@ public class Program {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+	/*	
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		
 		System.out.println("Entre com os dados do aluguel");
@@ -28,6 +29,11 @@ public class Program {
 		LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 		
 		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
+		*/
+		BrazilTaxService taxService = new BrazilTaxService();
+		
+		System.out.println(taxService.tax(390.0));
+		
 		
 		sc.close();
 	}
