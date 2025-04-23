@@ -40,10 +40,10 @@ public class Program {
 
 		rentalService.processInvoice(cr);
 
-		System.out.println("FATURA:");
-		System.out.println("Pagamento basico: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
-		System.out.println("IMPOSTO:" + cr.getInvoice().getTax());
-		System.out.println("Pagamento Total: " + String.format(carModel, cr.getInvoice().getTotalPayment()));
+		System.out.println("INVOICE:");
+		System.out.println("Basic Payment: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
+		System.out.println("Tax:" + cr.getInvoice().getTax());
+		System.out.println("Total Payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 
 		sc.close();
 	}
