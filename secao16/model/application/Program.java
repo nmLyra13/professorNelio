@@ -42,7 +42,7 @@ public class Program {
 
 		System.out.println("INVOICE:");
 		System.out.println("Basic Payment: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
-		System.out.println("Tax:" + cr.getInvoice().getTax());
+		System.out.println("Tax:" + String.format("%.2f", cr.getInvoice().getTax()));
 		System.out.println("Total Payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 
 		sc.close();
