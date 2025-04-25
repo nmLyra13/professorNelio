@@ -10,16 +10,17 @@ public class CarRental {
 	private Vehicle vehicle;
 	private Invoice invoice;
 
+	// Construtor padrão
 	public CarRental() {
 	}
-
+	
+	// Construtor
 	public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
 		this.start = start;
 		this.finish = finish;
 		this.vehicle = vehicle;
 	}
 
-	// Chamada aos GET´s e SET´s:
 	public LocalDateTime getStart() {
 		return start;
 	}

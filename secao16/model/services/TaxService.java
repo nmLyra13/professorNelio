@@ -4,4 +4,5 @@ package secao16.model.services;
 // implemntar também a operação amount
 public interface TaxService {
 	double tax(double amount);
+
 }
