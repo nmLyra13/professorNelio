@@ -11,7 +11,7 @@ public class Contract {
 	private Double totalValue;
 
 	private List<Installment> instalments = new ArrayList<>();
-	
+
 	public Contract() {
 
 	}
@@ -46,4 +46,11 @@ public class Contract {
 		this.totalValue = totalValue;
 	}
 
+	public List<Installment> getInstalments() {
+		return instalments;
+	}
+
+	
+	
+	
 }
