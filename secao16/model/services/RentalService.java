@@ -27,7 +27,7 @@ public class RentalService {
 		double basicPayment;
 
 		if (hours <= 12.0) {
-			// Função Math.ceil - Arredonda para cima. 
+			// Função Math.ceil - Arredonda para cima.
 			basicPayment = pricePerHour * Math.ceil(hours);
 		} else {
 			basicPayment = pricePerDay * Math.ceil(hours / 24.0);
