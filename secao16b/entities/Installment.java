@@ -4,13 +4,13 @@ import java.time.LocalDate;
 
 // Installment = parcela
 public class Installment {
-	
+
 	private LocalDate date;
 	private Double amount;
-	
-	public Installment(){
+
+	public Installment() {
 	}
-	
+
 	public Installment(LocalDate date, Double amount) {
 		this.date = date;
 		this.amount = amount;
@@ -32,8 +32,4 @@ public class Installment {
 		this.amount = amount;
 	}
 
-
-
-	
-	
 }
