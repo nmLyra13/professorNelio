@@ -1,4 +1,4 @@
-package secao14a.application;
+package secao14b.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 import secao14.entities.Reservation;
-import secao14a.exceptions.DomainException;
+import secao14b.exceptions.DomainException;
 
 public class Program {
 

@@ -1,12 +1,12 @@
-package secao13a.application;
+package secao13b.application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import secao13a.entities.Employee;
-import secao13a.entities.OutsourcedEmployee;
+import secao13b.entities.Employee;
+import secao13b.entities.OutsourcedEmployee;
 
 public class Program {
 

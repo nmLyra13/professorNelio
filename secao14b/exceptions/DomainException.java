@@ -1,4 +1,4 @@
-package secao14a.exceptions;
+package secao14b.exceptions;
 
 public class DomainException extends Exception  {
 	private static final long serialVersionUID = 1L;

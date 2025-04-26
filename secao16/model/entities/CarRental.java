@@ -13,7 +13,7 @@ public class CarRental {
 	// Construtor padrão
 	public CarRental() {
 	}
-	
+
 	// Construtor
 	public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
 		this.start = start;

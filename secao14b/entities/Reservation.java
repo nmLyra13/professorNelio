@@ -1,11 +1,9 @@
-package secao14a.entities;
-import secao14a.exceptions.DomainException;
+package secao14b.entities;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import secao14a.exceptions.DomainException;
-import secao14a.exceptions.DomainException;
+import secao14b.exceptions.DomainException;
 
 public class Reservation {
 	private Integer roomNumber;

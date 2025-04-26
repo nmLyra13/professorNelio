@@ -1,4 +1,4 @@
-package secao13a.entities;
+package secao13b.entities;
 
 public class OutsourcedEmployee extends Employee {
 
