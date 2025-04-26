@@ -8,6 +8,9 @@ import java.util.Scanner;
 import javax.swing.text.DateFormatter;
 
 import secao16b.entities.Contract;
+import secao16b.entities.Installment;
+import secao16b.services.ContractService;
+import secao16b.services.PaypalService;
 
 public class Program {
 
@@ -21,6 +24,7 @@ public class Program {
 		System.out.println("Entre com os dados do Contrato:");
 		System.out.print("Número do Contrato:");
 		int number = sc.nextInt();
+		
 		System.out.print("Data (dd/MM/yyyy)");
 		LocalDate date = LocalDate.parse(sc.next(), fmt);
 		System.out.print("Valor do Contrato: ");
@@ -29,9 +33,17 @@ public class Program {
 		Contract  obj = new Contract(number, date, totalValue);
 		
 		System.out.print("Entre com o número de parcelas: ");
+		int n = sc.nextInt();
 		
+		ContractService contractService = new ContractService(new PaypalService());
 		
+		contractService.processContract(obj, n);
 		
+		System.out.println("Parcelas: ");
+		
+		for (Installment installment : obj.getInstalments()) {
+			System.out.println(installment);
+		}
 		sc.close();
 	}
 
