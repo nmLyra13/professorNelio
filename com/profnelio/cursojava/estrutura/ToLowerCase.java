@@ -11,8 +11,10 @@ public class ToLowerCase {
 		String s04 = original.substring(2);
 		String s05 = original.substring(2, 9);
 		String s06 = original.replace("abcde", "xxxxx");
+		
 		int i = original.indexOf("b");
 		int j = original.lastIndexOf("P");
+		
 		System.out.println("-" + s01 + "-");
 		System.out.println("-" + s02 + "-");
 		System.out.println("-" + s03 + "-");

@@ -11,9 +11,8 @@ public class CurrencyConverterApp {
 
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
-
 		System.out.println("What is the dollar price ");
-
+		sc.close();
 	}
 
 }

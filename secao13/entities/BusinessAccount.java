@@ -35,7 +35,6 @@ public class BusinessAccount extends Account {
 	public void withdraw(double amount) {
 		super.withdraw(amount);
 		balance -= 2.0;
-
 	}
 
 }

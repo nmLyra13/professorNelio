@@ -16,15 +16,12 @@ public class ArrayProgram {
 		for (int i = 0; i < 3; i++) {
 			vect[i] = sc.nextDouble();
 		}
-
 		double sum = 0.00;
-
 		for (int i = 0; i < n; i++) {
 			sum += vect[i];
 		}
 		double avg = sum / n;
 		System.out.printf("Average Height: %.2f%n", avg);
-
 		sc.close();
 	}
 

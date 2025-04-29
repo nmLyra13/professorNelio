@@ -15,7 +15,6 @@ public class InializacaoVariavel {
 			discount = 2.0;
 		}
 		System.out.println(discount);
-
 	}
 
 }

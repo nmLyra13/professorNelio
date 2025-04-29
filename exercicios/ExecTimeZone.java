@@ -29,10 +29,6 @@ public class ExecTimeZone {
 		System.out.println("d05 hora = " + d05.getHour());
 		System.out.println("d05 minute = " + d05.getMinute());
 
-		// System.out.println("d04 = " +
-		// d04.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-		// System.out.println();
-
 	}
 
 }

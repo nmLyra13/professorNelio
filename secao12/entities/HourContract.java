@@ -28,7 +28,7 @@ public class HourContract {
 		return valuePerHour;
 	}
 
-	public void setValuePeHour(Double valuePeHour) {
+	public void setValuePeHour(Double valuePeHour, Double valuePerHour) {
 		this.valuePerHour = valuePerHour;
 	}
 
