@@ -29,6 +29,7 @@ public class ContractService {
 			double quota = basicQuota + interest + fee;
 
 			contract.getInstalments().add(new Installment(dueDate, quota));
+
 		}
 	}
 
