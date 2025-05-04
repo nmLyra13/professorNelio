@@ -12,7 +12,6 @@ public class ContractService {
 	public ContractService(OnlinePaymentService onlinePaymentService) {
 		this.onlinePaymentService = onlinePaymentService;
 	}
-
 	public void processContract(Contract contract, int months) {
 
 		double basicQuota = contract.getTotalValue() / months;
@@ -23,13 +22,13 @@ public class ContractService {
 
 			// interest=juros
 			double interest = onlinePaymentService.interest(basicQuota, i);
+
 			// fee=taxa
 			double fee = onlinePaymentService.paymentFee(basicQuota + interest);
 
 			double quota = basicQuota + interest + fee;
 
 			contract.getInstalments().add(new Installment(dueDate, quota));
-
 		}
 	}
 
