@@ -1,13 +1,18 @@
 package secao16.model.entities;
 
+// Classe fatura
 public class Invoice {
 
 	private Double basicPayment;
 	private Double tax;
 
+	// Default Construtor
 	public Invoice() {
 	}
 
+	/*
+	 * constructor with argument (Construtor com argumento)
+	 */
 	public Invoice(Double basicPayment, Double tax) {
 		this.basicPayment = basicPayment;
 		this.tax = tax;
@@ -29,6 +34,7 @@ public class Invoice {
 		this.tax = tax;
 	}
 
+	// 
 	public Double getTotalPayment() {
 		return getBasicPayment() + getTax();
 	}

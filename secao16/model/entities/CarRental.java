@@ -2,19 +2,35 @@ package secao16.model.entities;
 
 import java.time.LocalDateTime;
 
+// Car rental class
 public class CarRental {
 
+	// Start and end of rental.
 	private LocalDateTime start;
 	private LocalDateTime finish;
+
+	/*
+	 * --- Pay attention to the composition --- 
+	 * CarRental is associated with the
+	 * Vehicle class and associated with the Invoice class.
+	 * 
+	 * --- Preste atenção à composição --- 
+	 * AluguelDeCarro está associado à classe
+	 * Veículo e à classe Nota Fiscal.
+	 */
 
 	private Vehicle vehicle;
 	private Invoice invoice;
 
-	// Construtor padrão
+	/*
+	 * Default constructor (Construtor padrão)
+	 */
 	public CarRental() {
 	}
 
-	// Construtor
+	/*
+	 * constructor with argument (Construtor com argumento)
+	 */
 	public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
 		this.start = start;
 		this.finish = finish;
@@ -53,6 +69,4 @@ public class CarRental {
 		this.invoice = invoice;
 	}
 
-	
-	
 }

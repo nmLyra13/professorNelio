@@ -14,11 +14,16 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
+		
+		// 
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
+		/* Reading the car model
+		* Leitura do modelo do carro
+		*/
 		System.out.println("Entre com os dados do aluguel");
 		System.out.print("Modelo do Carro: ");
 		String carModel = sc.nextLine();
@@ -46,8 +51,7 @@ public class Program {
 		System.out.println("Total Payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 
 		sc.close();
-		
-		
+
 	}
 
 }
