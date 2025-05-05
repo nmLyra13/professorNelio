@@ -12,7 +12,17 @@ public class RentalService {
 
 	private TaxService taxService;
 
-	// Construtor
+	/*
+	 * We will not create a default constructor, so you will be required to inform
+	 * pricePerHour, pricePerDay and taxService when instantiating RentalService.
+	 *
+	 * Não vamos criar construtor padrão, assim será obrigado a informar
+	 * pricePerHour, pricePerDay e taxService no momento de instanciar
+	 * RentalService.
+	 * 
+	 */
+	
+	// Constructor with arguments (Construtor com argumentos)
 	public RentalService(Double pricePerHour, Double pricePerDay, TaxService taxService) {
 		this.pricePerHour = pricePerHour;
 		this.pricePerDay = pricePerDay;
