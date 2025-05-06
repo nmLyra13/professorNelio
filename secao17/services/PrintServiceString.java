@@ -3,15 +3,15 @@ package secao17.services;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintService {
+public class PrintServiceString {
 
-	List<Integer> list = new ArrayList<>();
+	List<String> list = new ArrayList<>();
 
-	public void addValue(Integer value) {
+	public void addValue(String value) {
 		list.add(value);
 	}
 
-	public Integer first() {
+	public String first() {
 		if (list.isEmpty()) {
 			throw new IllegalStateException("List is empty");
 		}
