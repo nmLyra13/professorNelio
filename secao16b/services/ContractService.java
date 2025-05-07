@@ -31,5 +31,4 @@ public class ContractService {
 			contract.getInstalments().add(new Installment(dueDate, quota));
 		}
 	}
-
 }

@@ -13,7 +13,5 @@ public class TimeZone2 {
 		System.out.println("------------------------");
 		LocalDate r1 = LocalDate.ofInstant(d05, ZoneId.systemDefault());
 		System.out.println(r1);
-
 	}
-
 }

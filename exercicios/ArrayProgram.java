@@ -24,5 +24,4 @@ public class ArrayProgram {
 		System.out.printf("Average Height: %.2f%n", avg);
 		sc.close();
 	}
-
 }

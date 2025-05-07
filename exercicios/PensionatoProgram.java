@@ -32,20 +32,14 @@ public class PensionatoProgram {
 			} else {
 				rooms[roomNumber] = new RentPensionato(name, email);
 			}
-
 		}
-
 		System.out.println();
 		System.out.println("Busy rooms:");
 		for (int i = 0; i < 10; i++) {
 			if (rooms[i] != null) {
 				System.out.println(i + ": " + rooms[i]);
 			}
-
 		}
-
 		sc.close();
-
 	}
-
 }
