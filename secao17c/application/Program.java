@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import aulao004.entities.Product;
 import secao17b.services.CalculationService;
 
 public class Program {
@@ -13,10 +14,10 @@ public class Program {
 	public static void main(String[] args) {
 
 		// number list integer
-		List<Integer> list = new ArrayList<>();
+		List<Product> list = new ArrayList<>();
 
 		// Here I am defining a path of a file
-		String path = "C:\\temp\\in.txt";
+		String path = "C:\\temp\\in2.txt";
 
 		// Note I - baseboard
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
@@ -25,10 +26,11 @@ public class Program {
 			while (line != null) {
 				// How Integer.parseInt(line) works - Note II
 				// Como funciona Integer.parseInt(line) - Note II
-				list.add(Integer.parseInt(line));
+				String[] fields = line.split(",");
+				list.add(new Product(fields[0], Double.parseDouble(fields[1])));
 				line = br.readLine();
 			}
-			Integer x = CalculationService.max(list);
+			Product x = CalculationService.max(list);
 			System.out.println("Max: ");
 			System.out.println(x);
 		} catch (IOException e) {
