@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import aulao004.entities.Product;
 import secao17b.services.CalculationService;
+import secao17c.entities.Product;
 
 public class Program {
 
