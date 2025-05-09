@@ -7,10 +7,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Set<T> 
-		 * 
-		 * Set<T> Represents a set of elements (similar to algebra) 
+		/* Set<T> Represents a set of elements (similar to algebra) 
 		 * 1. Does not allow repetitions; 
 		 * 2. Elements do not have a position; 
 		 * 3. Access, insertion and removal of elements are fast; 
