@@ -35,7 +35,6 @@ public class Program {
 		 * removeAll(other) - difference: removes from the set the elements contained in other.
 		 *
 		 */
-
 		Set<String> set = new HashSet<>(); 
 		/*
 		 * Here we have the fastest implementation with HashSet. 
@@ -48,9 +47,8 @@ public class Program {
 		
 		for (String p : set) {
 			System.out.println(p);
-		}
-		
-		
+			
+		}	
 	}
 
 }
