@@ -46,9 +46,7 @@ public class Program {
 		System.out.println(set.contains("Notebook")); 
 		
 		for (String p : set) {
-			System.out.println(p);
-			
+			System.out.println(p);	
 		}	
 	}
-
 }

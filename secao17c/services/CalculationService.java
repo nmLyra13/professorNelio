@@ -9,6 +9,7 @@ public class CalculationService {
 	 * the "CalculationService".
 	 */
 
+	
 	// operation receives a list of integers
 	public static <T extends Comparable<T>> T max(List<T> list) {
 		// This is a defensive schedule. It cannot be an empty list.

@@ -1,5 +1,4 @@
 package secao17d.application;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,7 +30,6 @@ public class Program {
 		 * 
 		 */
 		for (Object obj : list) {
-			System.out.println(obj);
 		}
 	}
 
