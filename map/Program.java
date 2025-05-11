@@ -17,7 +17,7 @@ public class Program {
 		cookies.put("phone", "99711122");
 
 		cookies.remove("email");
-		cookies.put("phone","1133")
+		cookies.put("phone","1133");
 
 		System.out.println("ALL COOKIES: ");
 		for (String key : cookies.keySet()) {

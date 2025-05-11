@@ -35,13 +35,12 @@ public class Program {
 				String[] fields = line.split(" ");
 				String username = fields[0];
 				Date moment = Date.from(Instant.parse(fields[1]));
-
 				/*
 				 * This structure is very interesting. If I try to insert repeated data, the set
 				 * structure itself refuses.
 				 */
 				set.add(new LogEntry(username, moment));
-				
+
 				line = br.readLine();
 			}
 			System.out.println("Total users: " + set.size());
