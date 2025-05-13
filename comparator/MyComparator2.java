@@ -7,7 +7,7 @@ import secao17c.entities.Product;
 public class MyComparator2 implements Comparator<Product2> {
 	@Override
 	public int compare(Product2 p1, Product2 p2) {
-
+		
 		/*
 		 * Here, the principle is very similar to comparable.
 		 * 
@@ -24,5 +24,6 @@ public class MyComparator2 implements Comparator<Product2> {
 		 * 
 		 */
 		return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+		
 	}
 }
