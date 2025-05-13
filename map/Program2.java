@@ -30,8 +30,6 @@ public class Program2 {
 		 * the keyset() function returns a Set<K> with the keys of the set.
 		 * cookies.keySet() takes the keys of the map in the form of a set.
 		 */
-		
-		
 
 		for (String key: cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
