@@ -1,6 +1,6 @@
 package comparator;
 
-public class Product2 implements Comparable<Product2>{
+public class Product2 {
 	
 	private String name;
 	private Double price;
@@ -32,11 +32,7 @@ public class Product2 implements Comparable<Product2>{
 	
 	@Override
 	public String toString() {
-		return "Product [name=" + name + ", price=" + price + "]";
+		return "Product2 [name=" + name + ", price=" + price + "]";
 	}
 	
-	@Override
-	public int compareTo(Product2 p) {
-		return name.toUpperCase().compareTo(p.getName().toUpperCase());
-	}
 }
