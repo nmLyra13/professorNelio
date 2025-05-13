@@ -1,5 +1,7 @@
 package comparator;
 
+import java.util.Comparator;
+
 import secao17c.entities.Product;
 
 public class MyComparator implements Comparator<Product>{
