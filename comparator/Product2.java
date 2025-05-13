@@ -34,5 +34,4 @@ public class Product2 {
 	public String toString() {
 		return "Product2 [name=" + name + ", price=" + price + "]";
 	}
-	
 }
