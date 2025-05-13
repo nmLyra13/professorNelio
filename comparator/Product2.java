@@ -1,15 +1,15 @@
 package comparator;
 
-public class Product implements Comparable<Product>{
+public class Product2 implements Comparable<Product2>{
 	
 	private String name;
 	private Double price;
 	
-	public Product() {
+	public Product2() {
 		
 	}
 	
-	public Product(String name, Double price) {
+	public Product2(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -36,7 +36,7 @@ public class Product implements Comparable<Product>{
 	}
 	
 	@Override
-	public int compareTo(Product p) {
+	public int compareTo(Product2 p) {
 		return name.toUpperCase().compareTo(p.getName().toUpperCase());
 	}
 }
