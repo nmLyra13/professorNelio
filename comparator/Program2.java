@@ -1,6 +1,7 @@
 package comparator;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Program2 {
@@ -13,15 +14,11 @@ public class Program2 {
 		list.add(new Product2("Notebook", 1200.00));
 		list.add(new Product2("Tablet", 450.00));
 
-		list.sort(new MyComparator2());
-		
+		list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
+
 		for (Product2 p : list) {
 			System.err.println(p);
-			
-			
-			
-			
-			
+
 		}
 	}
 }
@@ -33,7 +30,7 @@ public class Program2 {
  * abstract method.
  * 
  * It can have static and default methods. However, the method that we will
- * implement and use the most will be the "compare" 
+ * implement and use the most will be the "compare"
  * 
  * method compare(T 01, T 02) // Compares its two arguments for order
  * 
