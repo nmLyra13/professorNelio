@@ -25,7 +25,7 @@ public class Program {
 		 * 
 		 */
 		
-		list.removeIf(p -> p.getPrice() >= 100);
+		list.removeIf(new ProductPredicate());
 		
 		for (Product p: list) {
 			System.out.println(p);
