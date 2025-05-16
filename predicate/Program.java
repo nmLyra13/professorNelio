@@ -24,13 +24,11 @@ public class Program {
 		 * predicado (p -> p.getName() >= 100;
 		 * 
 		 */
-		
+
 		list.removeIf(new ProductPredicate());
-		
-		for (Product p: list) {
+
+		for (Product p : list) {
 			System.out.println(p);
 		}
 	}
-	
-
 }
