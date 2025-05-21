@@ -24,6 +24,5 @@ public class MyComparator2 implements Comparator<Product2> {
 		 * 
 		 */
 		return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-		
 	}
 }
