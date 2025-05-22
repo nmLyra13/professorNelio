@@ -45,7 +45,4 @@ public class LogEntry {
 		LogEntry other = (LogEntry) obj;
 		return Objects.equals(username, other.username);
 	}
-
-	
-	
 }
