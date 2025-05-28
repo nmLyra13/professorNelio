@@ -20,7 +20,7 @@ public class Program2 {
 		cookies.put("phone", "99711122");
 
 		System.out.println("Conteins 'phone' key:" + cookies.get("phone"));
-				
+
 		cookies.remove("email");
 		cookies.put("phone", "99711133");
 
@@ -31,8 +31,9 @@ public class Program2 {
 		 * cookies.keySet() takes the keys of the map in the form of a set.
 		 */
 
-		for (String key: cookies.keySet()) {
+		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
 		}
+
 	}
 }

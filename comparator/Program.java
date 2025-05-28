@@ -18,7 +18,6 @@ public class Program {
 		}
 	}
 }
-
 /*
  * Comparator<T> is a functional interface.
  * 

@@ -18,7 +18,6 @@ public class Program2 {
 
 		for (Product2 p : list) {
 			System.err.println(p);
-
 		}
 	}
 }
