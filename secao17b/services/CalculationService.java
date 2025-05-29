@@ -34,6 +34,4 @@ public class CalculationService {
  * 
  * Como podemos observar. A operação é estática. Então não é preciso instaciar o
  * "CalculationService".
- *
- * 
  */

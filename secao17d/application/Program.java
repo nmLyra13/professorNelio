@@ -32,5 +32,4 @@ public class Program {
 		for (Object obj : list) {
 		}
 	}
-
 }

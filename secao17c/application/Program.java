@@ -91,5 +91,4 @@ public class Program {
  * API de conveniência: método readLine() já devolve cada linha inteira como
  * String, eliminando a necessidade de você mesmo iterar caractere por caractere
  * até encontrar '\n'.
- * 
  */

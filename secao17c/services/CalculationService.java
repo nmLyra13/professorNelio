@@ -8,7 +8,6 @@ public class CalculationService {
 	 * As we can see, the operation is static. So there is no need to instantiate
 	 * the "CalculationService".
 	 */
-
 	// operation receives a list of integers
 	public static <T extends Comparable<T>> T max(List<T> list) {
 		// This is a defensive schedule. It cannot be an empty list.
